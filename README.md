@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+웹프로그래밍응용
+---
+### 📍 개요
+웹 애플리케이션 개발을 위한 최신 기술을 다룬다. 자바와 스프링 부트를 이용한 백엔드 개발 기술과 ReactJS를 이용한 프론트 엔드 개발 기술을 간단한 Todo 애플리케이션을 예제로 하여 배운다. 또한, AWS(Amazon Web Service)의 일라스틱 빈스톡을 이용해 개발한 애플리케이션을 클라우드에 배포하는 방법을 배운다. 본 강의에는 그래들, 메이븐 리포지터리, 롬복, JPA, REST API 등의 최신 기술이 포함된다.
+### 📍 목표
+1. 스프링 부트, ReactJS, AWS 등의 웹 응용 개발을 위한 다양한 최신 기술들을 익히고 적용하는 능력을 배양한다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📍 주차별 학습
+| 주차   | 학습 내용                                       |
+|-------|----------------------------------------------|
+| 1주차  | Todo 웹 애플리케이션, 배경 지식                  |
+| 2주차  | 백엔드 개발 환경 설정                            |
+| 3주차  | 백엔드 서비스 아키텍처                           |
+| 4주차  | 서비스 개발 및 실습                              |
+| 5주차  | 프론트엔드 개발 환경 설정                        |
+| 6주차  | 프론트엔드 서비스 개발                           |
+| 7주차  | 서비스 통합                                     |
+| 8주차  | REST API 인증 기법                              |
+| 9주차  | User 레이어 구현                                |
+| 10주차 | 스프링 시큐리티 통합                             |
+| 11주차 | 라우팅, 로그인 페이지                            |
+| 12주차 | 로컬 스토리지를 이용한 액세스 토큰 관리            |
+| 13주차 | 로그아웃과 글리치 해결, 계정 생성 페이지           |
+| 14주차 | 서비스 아키텍처, AWS CLI와 EB CLI 설치, 백엔드/프론트엔드 배포 |
+| 15주차 | Route 53 도메인 설정, ACM을 이용한 HTTPS 설정        |
